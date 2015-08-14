@@ -1,0 +1,5 @@
+.git/
+.vagrant/
+node_modules/
+uploads/*
+public/images/*

@@ -1,0 +1,18 @@
+#main {
+  margin-top: 50px;
+}
+
+.frame {
+  position: relative;  
+}
+
+.frame a {
+  display: block;
+  position: absolute;
+  border: solid 2px #fff;
+  border-radius: 50%;
+}
+
+.frame a:hover {
+  background: rgba(0,0,0,0.5);
+}

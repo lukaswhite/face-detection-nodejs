@@ -1,0 +1,18 @@
+{{#if faces.length}}
+<div class="alert alert-success" role="alert">
+	I found <strong>{{faces.length}}</strong> face(s).
+</div>
+{{else}}
+<div class="alert alert-warning" role="alert">
+	Sorry, but I couldn't find any faces...
+</div>
+{{/if}}
+
+<div class="frame">
+	<img src="/images/{{ filename }}">
+	{{#each faces}}
+  <a href="#" style="width: {{ width }}px; height: {{ height }}px; left: {{ x }}px; top: {{ y }}px;"></a>  
+  {{/each}}
+</div>
+
+<a href="/" class="btn btn-default">Go back and try another</a>

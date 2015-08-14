@@ -1,0 +1,19 @@
+{
+  "name": "face-detection",
+  "version": "1.0.0",
+  "description": "A simple application which demonstrates face detection in Node.js",
+  "main": "index.js",
+  "author": "Lukas White",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "busboy": "^0.2.9",
+    "connect-busboy": "0.0.2",
+    "easyimage": "^2.0.3",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "lodash": "^3.10.1",
+    "multer": "^1.0.3",
+    "opencv": "^3.0.0"
+  }
+}
