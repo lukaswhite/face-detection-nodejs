@@ -61,7 +61,7 @@ app.post('/upload', upload.single('file'), function(req, res, next){
 	
 	// Generate a filename; just use the one generated for us, plus the appropriate extension
 	var filename = req.file.filename + exts[req.file.mimetype]
-	// and source and destination filepaths
+		// and source and destination filepaths
 		, src = __dirname + '/' + req.file.path
 		, dst = __dirname + '/public/images/' + filename;
 
