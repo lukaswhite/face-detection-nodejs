@@ -105,7 +105,7 @@ app.post('/upload', upload.single('file'), function(req, res, next){
 						 */
 						if ( ( file.width < 960 ) || ( file.height < 300 ) ) {            
 							
-							return callback( new Error( 'Image must be at least 640 x 300 pixels' ) );
+							return callback( new Error( 'Image must be at least 900 x 300 pixels' ) );
 
 						}
 
